@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+	<h1>表单注册</h1>
+	<form name="userinformation" method="post">
+		<label for="username">姓名:<input type="text" name="name" id="username" placeholder="请填写姓名" required="required"></label><br/>
+		<label for="userpwd">密码:<input type="password" name="pwd" id="userpwd" placeholder="请填写密码" required="required"></label><br/>
+		<p>性别:<label for="girl"><input type="radio" name="sex" checked="checked" id="girl">女</input></label>
+				<label for="boy"><input type="radio" name="sex" id="boy">男</input></p></label>
+		<p>请选择你感兴趣的小组:</p>
+		<label for="culture"><input type="checkbox" name="culture" id="culture">文化</input></label>
+		<label for="photo"><input type="checkbox" name="photo" id="photo">摄影</input></label>
+		<label for="entertainment"><input type="checkbox" name="entermainment" id="entermainment">娱乐</input></label><br/>
+		<label for="fishion"><input type="checkbox" name="fishion" id="fishion">时尚</input></label>
+		<label for="life"><input type="checkbox" name="life" id="life">生活</input></label>
+		<label for="technology"><input type="checkbox" name="technology" id="technology">科技</input></label><br/>
+		<p>请选择你居住的城市:</p>
+		<select name="city" size="1">
+		<option value="shenyang">沈阳</option>
+		<option value="chengdu">成都</option>
+		<option value="beijing">北京</option>
+		<option value="chongqing">重庆</option>
+		<p>请选择您的照片<input type="file"></input>
+		<label for="message"><p>请留言</p>
+		<textarea rows="8" cols="20" id="message" placeholder="如还有信息补充，请填写"></textarea></label><br/>
+		<input type="submit" value="提交">&nbsp&nbsp&nbsp<input type="reset" value="重置">
+	</form>
+</body>
+</html>
